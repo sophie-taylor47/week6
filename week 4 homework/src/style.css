@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(
+    180.3deg,
+    rgb(230, 243, 206) 37.2%,
+    rgb(166, 223, 215) 137.3%
+  );
+  font-family: "Montserrat", sans-serif;
+}
+
+form {
+  margin-top: 10px;
+  left: 30px;
+  top: 10px;
+}
+
+form,
+.card-title {
+  display: inline;
+}
+
+.mainSun {
+  width: 200px;
+  display: inline;
+}
+
+.todayTemp {
+  display: inline;
+}
+
+.card-title,
+.temp {
+  text-align: right;
+}
+
+.sunshine,
+.partly-cloudy,
+.rain {
+  max-width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.weather-app {
+  background: rgb(251, 202, 63);
+  background: radial-gradient(
+    circle,
+    rgba(251, 202, 63, 0.9088937093275488) 0%,
+    rgba(233, 107, 199, 0.5921908893709328) 100%
+  );
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 11px 22px rgb(0 0 0 / 30%);
+  color: #006a71;
+  font-family: "Quicksand", sans-serif;
+  max-width: 90%;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+.search-city {
+  margin: 10px auto 50px;
+  justify-content: center;
+  text-align: left;
+}
+
+.card-title {
+  text-align: right;
+}
+
+.row {
+  display: inline;
+  text-align: left;
+}
+
+.WeatherNextWeekDays {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.Temperatures {
+  width: 100%;
+  margin-left: 10px;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+        <div class="container">
+          <div class="weather-app">
+
+            <div class="search-city">
+                  <form id="display-location">
+                <input
+                  type="text"
+                  placeholder="Please enter a City..."
+                  class="shadow-sm"
+                  id="input-city"
+                />
+                <button class="searchButton shadow-sm"
+                id="button-search"
+                type="submit">Search</button>
+              </form>
+                 </div>
+
+              <div class="card-title">
+               <h2 id="location-container"> RHODES TOWN, GREECE </h2> 
+               </div>
+
+               <div class="row">
+                <div class="col">
+                    <img src="images/sunny.png" alt="Sunny" class="mainSun"/>
+                </div>
+
+                <div class="col">
+                  <p class="todayTemp">
+                    <br />
+                   <h4 id="temp"> <strong> 27 </strong></h4>
+                   <span class="units">
+                     <a href="#" id="celcius">°C |
+                       <a href="#" id="fahrenheit">°F</a>
+                   </span>
+                  </p>
+                  <p class="todayTempDetail">
+                    <h5>Precipitation: 0% <br />
+                    Humidity: 38% <br />
+                    Wind: 20 km/h
+                    </h5>
+                  </p>
+                  </div>
+                  <div class="col-5">
+                <h4 id="current-time">Monday 10:30pm </h4>
+                </div>
+                  </div>
+
+                </br>
+              </br>
+
+        <div class="WeatherNextWeekDays">
+        <div class="row">
+
+               <div class="col">
+                   <p> Monday </p>
+            </div>
+            <div class="col">
+                   <p> Tuesday </p>
+            </div>
+            <div class="col">
+                   <p> Wednesday  </p>
+            </div>
+            <div class="col">
+                   <p> Thursday  </p>
+            </div>
+             <div class="col">
+                   <p> Friday  </p>
+            </div>
+            <div class="col">
+                   <p> Saturday  </p>
+            </div>
+             <div class="col">
+                   <p> Sunday </p>
+            </div>
+          </div>
+          </div>
+
+           <div class="WeatherPictures">
+        <div class="row">
+            <div class="col">
+              <p>
+                <img src="images/cloud.svg.png" alt="partly cloudy" class="partly-cloudy"/>
+              </p>
+              </div>
+
+              <div class="col">
+              <p>
+                <img src="images/sunny.png" alt="Sunny" class="sunshine"/></br>
+              </p>
+            </div>
+
+             <div class="col">
+              <p>
+                  <img src="images/sunny.png" alt="Sunny" class="sunshine"/></br>
+              </p>
+              </div>
+          
+               <div class="col">
+              <p>
+                 <img src="images/sunny.png" alt="Sunny" class="sunshine"/></br>
+              </p>
+              </div>
+           
+               <div class="col">
+              <p>
+                   <img src="images/sunny.png" alt="Sunny" class="sunshine"/></br>
+              </p>
+              </div>
+
+               <div class="col">
+               <p>
+                 <img src="images/cloud.svg.png" alt="partly cloudy" class="partly-cloudy"/> </br>
+              </p>
+              </div>
+
+              <div class="col">
+              <p>
+                  <img src="images/rain.png" alt="Rainy" class="rain"/></br>
+              </p>
+              </div>
+
+        <div class="Temperatures">
+            <div class="row">
+               <div class="col">
+                   <p> <strong>27°C </strong> | 23°C  </p>
+            </div>
+            <div class="col">
+                   <p> <strong>27°C </strong> | 23°C  </p>
+            </div>
+            <div class="col">
+                   <p> <strong>27°C </strong> | 23°C  </p>
+            </div>
+            <div class="col">
+                   <p> <strong>27°C </strong> | 22°C  </p>
+            </div>
+             <div class="col">
+                   <p> <strong>25°C </strong> | 21°C  </p>
+            </div>
+            <div class="col">
+                   <p> <strong>24°C </strong> | 20°C  </p>
+            </div>
+             <div class="col">
+                   <p> <strong>25°C </strong> | 21°C  </p>
+            </div>
+          </div>
+          </div>
+      
+          <script src="src/index.js"></script>
+  </body>
+</html>
